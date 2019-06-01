@@ -1,6 +1,14 @@
 @font-face {
-  font-family: "UD Digi Kyokasho";
-  src: url("files/UDDigiKyokashoN-R.ttc");
+  font-family: "UD Digi Kyokasho N-R";
+  src: url("files/UDDigiKyokashoN-R.ttf");
+}
+@font-face {
+  font-family: "UD Digi Kyokasho NP-R";
+  src: url("files/UDDigiKyokashoNP-R.ttf");
+}
+@font-face {
+  font-family: "UD Digi Kyokasho NK-R";
+  src: url("files/UDDigiKyokashoNK-R.ttf");
 }
 
 * {
