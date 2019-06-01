@@ -1,0 +1,9 @@
+@font-face {
+  font-family: "UD Digi Kyokasho";
+  src: url("files/UDDigiKyokashoN-R.ttc");
+}
+
+* {
+  writing-mode: vertical-rl;
+  font-family: "UD Digi Kyokasho NP-R"
+}
