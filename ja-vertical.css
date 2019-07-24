@@ -1,0 +1,46 @@
+/* font */
+@font-face {
+  font-family: "UD Digi Kyokasho N-R";
+  src: url("files/UDDigiKyokashoN-R.ttf");
+}
+@font-face {
+  font-family: "UD Digi Kyokasho NP-R";
+  src: url("files/UDDigiKyokashoNP-R.ttf");
+}
+@font-face {
+  font-family: "UD Digi Kyokasho NK-R";
+  src: url("files/UDDigiKyokashoNK-R.ttf");
+}
+* {
+  writing-mode: vertical-rl;
+  font-family: "UD Digi Kyokasho NP-R"
+}
+
+/* accidentals */
+.suuji {
+  font-family: "UD Digi Kyokasho N-R";
+}
+
+/* HEADER */
+
+#button_ca {
+  height: 1rem;
+  position: absolute;
+  bottom: 1rem;
+  right: 1rem;
+}
+
+/* MAIN */
+
+/* News */
+#news {
+  display: grid;
+  grid-gap: 4rem;
+  grid-template-columns: 2fr 1fr;
+}
+@media screen and (max-height: 47rem) {
+  #news {
+    grid-gap: 1rem;
+    grid-template-columns: 1fr;
+  }
+}

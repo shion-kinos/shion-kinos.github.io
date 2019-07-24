@@ -2,36 +2,48 @@
 <html lang="en">
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <link rel="stylesheet" type="text/css" href="typography-en.css">
+    <link rel="stylesheet" type="text/css" href="en.css">
     <link rel="icon" type="image/ico" href="files/Neptune.ico">
-      <!-- Image source: https://space-facts.com/neptune/
-        Direct link: https://space-facts.com/wp-content/uploads/neptune.png -->
-    <title>Shion's website</title>
+    <title>Shion Kinoshita</title>
   </head>
   <body>
     <header>
-      <h1>Welcome to my website</h1>
-      <p id="status">
-        Web design is hard.
-      </p>
-      <a href="jp-vertical.html"><img id="button_jp" src="files/Flag of Japan.png"></a>
-      <!-- Image source: https://en.wikipedia.org/wiki/File:Flag_of_Japan.svg
-        Direct link (svg): https://upload.wikimedia.org/wikipedia/en/9/9e/Flag_of_Japan.svg -->
+      <div id="introduction">
+        <h1 id="name">Shion Kinoshita</h1>
+        <p id="status">
+
+        </p>
+        <div id="line"></div>
+        <p id="about-me">
+          I'm an undergraduate student studying physics at the University of Waterloo. I have a strong interest in computer science. I also like languages and linguistics.
+        </p>
+      </div>
+      <div id="social">
+        <a href="https://github.com/shion-kinos" title="My GitHub profile" target="_blank"><img class="social-icon" src="files/GitHub icon.svg"></a>
+      </div>
+      <!-- <a href="ja-vertical.html"><img id="button_jp" src="files/flag of Japan.svg" style="border-style: solid; border-width: 0.5px; border-color: #616161;"></a> -->
     </header>
-    <main class="grid-container">
-      <article id="introduction">
-        <section id="about-me">
-          <h2>Hello</h2>
+    <main>
+      <div id="my-projects-wrapper">
+      <article id="my-projects" class="content">
+        <h2>My projects</h2>
+        <div id="projects-grid">
+          <a class="project" href="https://shion-kinos.github.io/maze-generator/maze-generator.html" target="_blank">
+            <img class="project-thumb" src="files/maze thumb.png">
+            <div class="project-description"><div class="project-title">Maze generator</div><div id="project-language">JavaScript</div></div>
+          </a>
+        </div>
+      </article>
+    </div>
+      <div id="news-wrapper">
+      <section id="news" class="content">
+        <div id="update">
+          <h2>Update</h2>
           <p>
-            Thanks for visiting my website. I'm an undergraduate student studying physics at the University of Waterloo.
+            This page is finally starting to look decent. I will keep experimenting with different layouts and styles.
           </p>
-        </section>
-        <section id="news">
-          <h2>What I've been up to</h2>
-          <p>
-            I just did a major restructuring of this page. HTML and CSS continue to pose challenges and confuse me greatly. If you want to, you can take a look at my code in the GitHub <a href="https://github.com/shion-kinos/shion-kinos.github.io">repository</a> and tell me about all the things I'm doing completely wrong. 😛
-          </p>
+        </div>
+        <div id="to-do">
           <h3>My to-do list</h3>
           <ul>
             <li>studying</li>
@@ -39,52 +51,10 @@
             <li>other stuff I need to do</li>
           </ul>
           <p>
-            Total estimated time required: 1 eon
+            Estimated time required: 1 eon
           </p>
-        </section>
-      </article>
-      <article id="content">
-        <section id="Favourites">
-          <h2>Favourites</h2>
-          <h3>Favourite music / songs</h3>
-          <ul>
-            <li><a href="https://www.youtube.com/watch?v=YyknBTm_YyM"><i>Danse macabre</i></a> - Camille Saint-Saëns</li>
-            <li><a href="https://www.youtube.com/watch?v=V0HCZ4YGqbw"><i>La de da de da de da de day oh</i></a> and <a href="https://www.youtube.com/watch?v=NHZr6P1csiY"><i>and the day goes on</i></a> - Bill Wurtz</li>
-            <li><a href="https://www.youtube.com/watch?v=_C_WIGih-V8"><i>Furusato (ふるさと)</i></a> - Japanese children's song</li>
-          </ul>
-          <h3>Favourite books</h3>
-          <ul>
-            <li><i>Romance of the Three Kingdoms (三國演義)</i> - Chinese historical novel</li>
-            <li><i>The War of Art</i> - Steven Pressfield</li>
-          </ul>
-          <h3>Favourite movies</h3>
-          <ul>
-            <li><i>Star Trek Into Darkness</i></li>
-            <li><i>Letters from Iwo Jima</i></li>
-            <li><i>13 Hours: The Secret Soldiers of Benghazi</i></li>
-          </ul>
-          <h3>Favourite TV shows</h3>
-          <ul>
-            <li><i>Naruto</i></li>
-            <li><i>Teenage Mutant Ninja Turtles</i></li>
-            <li><i>SpongeBob SquarePants</i></li>
-          </ul>
-          <h3>Favourite games</h3>
-          <ul>
-            <li><i>Minecraft</i> (vanilla / modded)</li>
-            <li><i>Pokémon Uranium</i></li>
-            <li><i>Day R Survival</i></li>
-          </ul>
-        </section>
-      </article>
-      <div id="outro">
-        <h2>The end</h2>
-        <p>
-          Alright, I really need to get back to work.
-        </p>
-        <p>
-          If you're interested, check out <a href="https://github.com/shion-kinos/shion-kinos.github.io">my repository</a> on GitHub. Any feedback / suggestion for improvement would be greatly appreciated.
-        </p>
+        </div>
+      </section>
       </div>
     </main>
   </body>
