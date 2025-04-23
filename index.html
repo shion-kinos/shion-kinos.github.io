@@ -1,61 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="en.css">
-    <link rel="icon" type="image/ico" href="files/Neptune.ico">
-    <title>Shion Kinoshita</title>
-  </head>
-  <body>
-    <header>
-      <div id="introduction">
-        <h1 id="name">Shion Kinoshita</h1>
-        <p id="status">
 
-        </p>
-        <div id="line"></div>
-        <p id="about-me">
-          I'm an undergraduate student studying physics at the University of Waterloo. I have a strong interest in computer science. I also like languages and linguistics.
-        </p>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shion's laboratory</title>
+  <link rel="icon" href="https://raw.githubusercontent.com/googlefonts/noto-emoji/5628587386c78161f87aa2ca9ddee37c2e8ea212/svg/emoji_u1f6f0.svg">
+  <link rel="stylesheet" href="en.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <div id="introduction">
+      <h1>Shion's laboratory</h1>
+      <p id="subtitle"><i>Learning must never stop.</i>&ensp;<small>— Xunzi</small></p>
+      <br>
+      <p id="greeting">Hi, I'm Shion. I'm a lifelong learner, creator and volunteer with a passion for making the world a better place. I'm also interested in languages, coding, worldbuilding and science fiction, among other things. Welcome to my online laboratory.</p>
+    </div>
+  </header>
+  <main>
+    <section id="projects">
+      <h2>My experiments</h2>
+      <div id="projects-grid">
+        <a class="project-card" href="https://shion-kinos.github.io/maze-generator/" target="_blank">
+          <img class="project-thumbnail" src="files/maze-thumbnail.png" alt="">
+          <div class="project-description">
+            <h3 class="project-title">Maze generator</h3>
+            <p class="project-subtitle">JavaScript</p>
+          </div>
+        </a>
       </div>
-      <div id="social">
-        <a href="https://github.com/shion-kinos" title="My GitHub profile" target="_blank"><img class="social-icon" src="files/GitHub icon.svg"></a>
-      </div>
-      <!-- <a href="ja-vertical.html"><img id="button_jp" src="files/flag of Japan.svg" style="border-style: solid; border-width: 0.5px; border-color: #616161;"></a> -->
-    </header>
-    <main>
-      <div id="projects-wrapper">
-      <article id="projects" class="content">
-        <h2>Projects</h2>
-        <div id="projects-grid">
-          <a class="project" href="https://shion-kinos.github.io/maze-generator/" target="_blank">
-            <img class="project-thumb" src="files/maze thumb.png">
-            <div class="project-description"><div class="project-title">Maze generator</div><div id="project-language">JavaScript</div></div>
-          </a>
-        </div>
-      </article>
-      </div>
-      <div id="news-wrapper">
-      <section id="news" class="content">
-        <div id="update">
-          <h2>The end</h2>
-          <p>
-            I wish I had more things to write
-          </p>
-        </div>
-        <div id="to-do">
-          <h3>To-do list</h3>
-          <ul>
-            <li>studying</li>
-            <li>homework</li>
-            <li>other stuff I need to do</li>
-          </ul>
-          <p>
-            Estimated time required: 1 eon
-          </p>
-        </div>
-      </section>
-      </div>
-    </main>
-  </body>
+    </section>
+  </main>
+</body>
+
 </html>
