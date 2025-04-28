@@ -1,7 +1,7 @@
 body {
   margin: 0;
-  font-family: "League Spartan";
-  line-height: 1.5;
+  font-family: "Ysabeau Infant";
+  font-weight: 550;
 }
 
 h1,
@@ -28,15 +28,13 @@ header {
 }
 
 #projects {
-  padding: 0 12.5vw 1lh;
+  width: max(50vw, 75vmin);
+  margin: 12.5vh auto;
+  padding: 0 1rem 2rem;
+  border-radius: 1rem;
+  box-sizing: border-box;
   overflow: auto;
   background-color: #E0F0FF;
-}
-
-#projects-grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-gap: 1rem;
 }
 
 .project-card {
@@ -66,10 +64,4 @@ header {
 
 .project-title {
   font-size: x-large;
-}
-
-@media (max-width: 100vh) {
-  #projects-grid {
-    grid-template-columns: 1fr;
-  }
 }
