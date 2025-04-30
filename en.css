@@ -2,66 +2,71 @@ body {
   margin: 0;
   font-family: "Ysabeau Infant";
   font-weight: 550;
-}
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-weight: inherit;
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-weight: inherit;
+  }
 }
 
 header {
   text-align: center;
   color: #404040;
-}
 
-#introduction {
-  width: max(50vw, 75vmin);
-  margin: 12.5vh auto;
-}
+  #introduction {
+    width: max(50vw, 75vmin);
+    margin: 12.5vh auto;
+  }
 
-#greeting {
-  font-size: large;
-}
-
-#projects {
-  width: max(50vw, 75vmin);
-  margin: 12.5vh auto;
-  padding: 0 1rem 2rem;
-  border-radius: 1rem;
-  box-sizing: border-box;
-  overflow: auto;
-  background-color: #E0F0FF;
-}
-
-.project-card {
-  height: 4rem;
-  box-shadow: 2px 2px 2px 0 #00000080;
-  background-color: #FFFFFF;
-  display: flex;
-  text-decoration: none;
-  color: initial;
-  line-height: 1.2;
-
-  * {
-    margin: 0;
+  #greeting {
+    font-size: large;
   }
 }
 
-.project-thumbnail {
-  width: 4rem;
-  box-sizing: border-box;
-  align-self: center;
-  padding: 0.5rem;
-}
+main {
+  section {
+    width: max(50vw, 75vmin);
+    margin: 1rem auto;
+    overflow: auto;
 
-.project-description {
-  padding: 0.5rem;
-}
+    &#projects {
+      padding: 0 1rem;
+      border-radius: 1rem;
+      background-color: #E0F0FF;
 
-.project-title {
-  font-size: x-large;
+      .project-card {
+        margin: 1rem 0;
+        height: 4rem;
+        box-shadow: 2px 2px 2px 0 #00000080;
+        background-color: #FFFFFF;
+        display: flex;
+        text-decoration: none;
+        color: initial;
+        line-height: 1.2;
+
+        * {
+          margin: 0;
+        }
+      }
+
+      .project-thumbnail {
+        width: 4rem;
+        box-sizing: border-box;
+        align-self: center;
+        padding: 0.5rem;
+      }
+
+      .project-description {
+        padding: 0.5rem;
+      }
+
+      .project-title {
+        font-size: x-large;
+      }
+    }
+  }
 }
