@@ -11,6 +11,12 @@ body {
   h6 {
     font-weight: inherit;
   }
+
+  .clip-text {
+    text-wrap: nowrap;
+    overflow-x: clip;
+    text-overflow: ellipsis;
+  }
 }
 
 header {
@@ -62,6 +68,7 @@ main {
 
       .project-description {
         padding: 0.5rem;
+        overflow: hidden;
       }
 
       .project-title {
