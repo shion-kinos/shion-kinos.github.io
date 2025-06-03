@@ -1,79 +1,79 @@
 body {
-  margin: 0;
-  font-family: "Ysabeau Infant";
-  font-weight: 550;
+    margin: 0;
+    font-family: "Ysabeau Infant";
+    font-weight: 550;
 
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6 {
-    font-weight: inherit;
-  }
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        font-weight: inherit;
+    }
 
-  .clip-text {
-    text-wrap: nowrap;
-    overflow-x: clip;
-    text-overflow: ellipsis;
-  }
+    .clip-text {
+        text-wrap: nowrap;
+        overflow-x: clip;
+        text-overflow: ellipsis;
+    }
 }
 
 header {
-  text-align: center;
-  color: #404040;
+    text-align: center;
+    color: #404040;
 
-  #introduction {
-    width: max(50vw, 75vmin);
-    margin: 12.5vh auto;
-  }
+    #introduction {
+        width: max(50vw, 75vmin);
+        margin: 12.5vh auto;
+    }
 
-  #greeting {
-    font-size: large;
-  }
+    #greeting {
+        font-size: large;
+    }
 }
 
 main {
-  section {
-    width: max(50vw, 75vmin);
-    margin: 2rem auto;
-    overflow: auto;
+    section {
+        width: max(50vw, 75vmin);
+        margin: 2rem auto;
+        overflow: auto;
 
-    &#projects {
-      padding: 0 1rem;
-      border-radius: 1rem;
-      background-color: #E0F0FF;
+        &#projects {
+            padding: 0 1rem;
+            border-radius: 1rem;
+            background-color: #E0F0FF;
 
-      .project-card {
-        margin: 1rem 0;
-        height: 4rem;
-        box-shadow: 2px 2px 2px 0 #00000080;
-        background-color: #FFFFFF;
-        display: flex;
-        text-decoration: none;
-        color: initial;
-        line-height: 1.2;
+            .project-card {
+                margin: 1rem 0;
+                height: 4rem;
+                box-shadow: 2px 2px 2px 0 #00000080;
+                background-color: #FFFFFF;
+                display: flex;
+                text-decoration: none;
+                color: initial;
+                line-height: 1.2;
 
-        * {
-          margin: 0;
+                * {
+                    margin: 0;
+                }
+            }
+
+            .project-thumbnail {
+                width: 4rem;
+                box-sizing: border-box;
+                align-self: center;
+                padding: 0.5rem;
+            }
+
+            .project-description {
+                padding: 0.5rem;
+                overflow: hidden;
+            }
+
+            .project-title {
+                font-size: x-large;
+            }
         }
-      }
-
-      .project-thumbnail {
-        width: 4rem;
-        box-sizing: border-box;
-        align-self: center;
-        padding: 0.5rem;
-      }
-
-      .project-description {
-        padding: 0.5rem;
-        overflow: hidden;
-      }
-
-      .project-title {
-        font-size: x-large;
-      }
     }
-  }
 }
