@@ -10,6 +10,14 @@ body {
     h5,
     h6 {
         font-weight: inherit;
+
+        &.hidden-heading {
+            display: none;
+        }
+    }
+
+    a {
+        color: inherit;
     }
 
     .clip-text {
@@ -31,6 +39,17 @@ header {
     #greeting {
         font-size: large;
     }
+
+    #links {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+
+        .link-card {
+            width: 12rem;
+        }
+    }
 }
 
 main {
@@ -51,7 +70,6 @@ main {
                 background-color: #FFFFFF;
                 display: flex;
                 text-decoration: none;
-                color: initial;
                 line-height: 1.2;
 
                 * {
