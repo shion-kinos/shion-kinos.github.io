@@ -31,9 +31,9 @@ body {
 main {
     width: clamp(50vw, 48rem, 75vw);
     margin: auto;
-}
 
-#Shion-discord {
-    display: flex;
-    justify-content: center;
+    #Shion-discord {
+        display: flex;
+        justify-content: center;
+    }
 }
