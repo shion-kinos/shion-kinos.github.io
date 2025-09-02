@@ -25,6 +25,12 @@ body {
         overflow-x: clip;
         text-overflow: ellipsis;
     }
+
+    span {
+        &.font-ja {
+            font-family: "Noto Serif JP";
+        }
+    }
 }
 
 header {

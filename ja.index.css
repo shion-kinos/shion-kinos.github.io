@@ -30,6 +30,10 @@ body {
     }
 
     span {
+        &.font-en {
+            font-family: "Ysabeau Infant";
+        }
+
         &.yomigana {
             font-size: 0.875rem;
         }
