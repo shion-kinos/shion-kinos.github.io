@@ -1,0 +1,50 @@
+body {
+    font-family: "Noto Serif JP";
+    margin: 0;
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        font-weight: inherit;
+
+        &.hidden {
+            display: none;
+        }
+    }
+
+    a {
+        color: inherit;
+
+        &[target="_blank"]::after {
+            content: "↗";
+            display: inline-block;
+            line-height: 1;
+        }
+    }
+
+    overflow-x: hidden;
+
+    span {
+        &.yomigana {
+            font-size: 0.875rem;
+        }
+    }
+}
+
+main {
+    width: clamp(50vw, 48rem, 75vw);
+    margin: auto;
+
+    #Shion-discord {
+        display: flex;
+        justify-content: center;
+    }
+
+    .caption {
+        font-size: 0.875rem;
+        padding: 0 6.25%;
+    }
+}

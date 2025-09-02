@@ -1,0 +1,106 @@
+body {
+    margin: 0;
+    font-family: "Noto Serif JP";
+
+    * {
+        font-style: normal;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        font-weight: inherit;
+
+        &.hidden-heading {
+            display: none;
+        }
+    }
+
+    a {
+        color: inherit;
+    }
+
+    .clip-text {
+        text-wrap: nowrap;
+        overflow-x: clip;
+        text-overflow: ellipsis;
+    }
+
+    span {
+        &.yomigana {
+            font-size: 0.875rem;
+        }
+    }
+}
+
+header {
+    text-align: center;
+    color: #404040;
+
+    #introduction {
+        width: max(50vw, 75vmin);
+        margin: 12.5vh auto;
+    }
+
+    #greeting {
+        font-size: large;
+    }
+
+    #links {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+
+        .link-card {
+            width: 12rem;
+        }
+    }
+}
+
+main {
+    section {
+        width: max(50vw, 75vmin);
+        margin: 2rem auto;
+        overflow: auto;
+
+        &#projects {
+            padding: 0 1rem;
+            border-radius: 1rem;
+            background-color: #E0F0FF;
+
+            .project-card {
+                margin: 1rem 0;
+                height: 4rem;
+                box-shadow: 2px 2px 2px 0 #00000080;
+                background-color: #FFFFFF;
+                display: flex;
+                text-decoration: none;
+                line-height: 1.2;
+
+                * {
+                    margin: 0;
+                }
+            }
+
+            .project-thumbnail {
+                width: 4rem;
+                box-sizing: border-box;
+                align-self: center;
+                padding: 0.5rem;
+            }
+
+            .project-description {
+                padding: 0.5rem;
+                overflow: hidden;
+            }
+
+            .project-title {
+                font-size: x-large;
+            }
+        }
+    }
+}
